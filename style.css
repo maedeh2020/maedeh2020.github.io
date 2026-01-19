@@ -7,7 +7,7 @@ body {
     line-height: 1.7;
 }
 
-/* HERO */
+/* HERO SECTION */
 .hero {
     padding: 90px 20px;
     text-align: center;
@@ -15,60 +15,78 @@ body {
     color: white;
 }
 
+/* LOGO */
 .logo {
     max-width: 220px;
     height: auto;
     margin-bottom: 20px;
 }
 
+/* SUBTITLE */
 .subtitle {
     font-size: 22px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
+/* STACK CONTAINER FOR BUTTON + INPUT + SUBSCRIBE */
+.hero-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+/* FOLLOW BUTTON */
 .cta {
-    display: inline-block;
-    padding: 14px 32px;
+    display: block;
+    width: 100%;
+    padding: 14px 0;
     background: #FCD50C;
     color: #000;
     font-weight: bold;
     text-decoration: none;
     border-radius: 6px;
     transition: 0.2s;
+    text-align: center;
 }
 
 .cta:hover {
     background: #e5c20b;
 }
 
-/* HERO SUBSCRIBE FORM */
-.hero-form {
-    margin-top: 25px;
+/* EMAIL FORM */
+.email-form {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     gap: 10px;
 }
 
-.hero-form input {
+/* EMAIL INPUT */
+.email-form input {
+    width: 100%;
     padding: 12px;
-    width: 260px;
-    border: none;
-    border-radius: 6px;
     font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
 }
 
-.hero-form button {
-    padding: 12px 20px;
+/* SUBSCRIBE BUTTON */
+.email-form button {
+    width: 100%;
+    padding: 12px;
     background: #FCD50C;
     color: #000;
+    font-weight: bold;
     border: none;
     border-radius: 6px;
-    font-weight: bold;
     cursor: pointer;
     transition: 0.2s;
 }
 
-.hero-form button:hover {
+.email-form button:hover {
     background: #e5c20b;
 }
 
