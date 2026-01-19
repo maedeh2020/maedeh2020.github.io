@@ -68,7 +68,7 @@ body {
 .email-form input {
     width: 100%;
     padding: 12px;
-    font-size: 14px;
+    font-size: 10px;
     border-radius: 6px;
     border: 1px solid #ccc;
     box-sizing: border-box; /* جلوگیری از بزرگ‌تر شدن */
@@ -130,5 +130,6 @@ footer {
     background: #f5f5f5;
     margin-top: 40px;
 }
+
 
 
