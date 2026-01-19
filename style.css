@@ -15,9 +15,10 @@ body {
     color: white;
 }
 
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
+.logo {
+    max-width: 220px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .subtitle {
