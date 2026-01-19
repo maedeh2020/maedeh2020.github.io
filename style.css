@@ -1,41 +1,17 @@
-/* GLOBAL */
-body {
+/* GLOBAL RESET */
+* {
+    box-sizing: border-box;
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #ffffff;
-    color: #1a1a1a;
-    line-height: 1.7;
+    padding: 0;
 }
 
-/* HERO SECTION */
-.hero {
-    padding: 90px 20px;
-    text-align: center;
-    background: #37B5A7;
-    color: white;
-}
-
-/* LOGO */
-.logo {
-    max-width: 220px;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-/* SUBTITLE */
-.subtitle {
-    font-size: 22px;
-    margin-bottom: 30px;
-}
-
-/* STACK CONTAINER FOR BUTTON + INPUT + SUBSCRIBE */
-.hero-stack {
+/* CONTAINER */
+.container {
+    width: 100%;
+    max-width: 350px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 12px;
-    max-width: 320px;
-    margin: 0 auto;
 }
 
 /* FOLLOW BUTTON */
@@ -90,6 +66,10 @@ body {
     background: #e5c20b;
 }
 
+.email-form button:hover {
+    background: #e5c20b;
+}
+
 /* SECTIONS */
 .section {
     padding: 70px 20px;
@@ -129,3 +109,4 @@ footer {
     background: #f5f5f5;
     margin-top: 40px;
 }
+
