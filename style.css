@@ -78,4 +78,36 @@ footer {
     padding: 25px;
     background: #f5f5f5;
     margin-top: 40px;
+
+    .email-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
 }
+
+.email-form input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.email-form button {
+    padding: 12px 24px;
+    background: #37B5A7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.email-form button:hover {
+    background: #2f9d92;
+}
+
+    
+}
+
