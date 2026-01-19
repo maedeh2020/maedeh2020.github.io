@@ -71,6 +71,7 @@ body {
     font-size: 14px;
     border-radius: 6px;
     border: 1px solid #ccc;
+    box-sizing: border-box; /* جلوگیری از بزرگ‌تر شدن */
 }
 
 /* SUBSCRIBE BUTTON */
@@ -129,4 +130,5 @@ footer {
     background: #f5f5f5;
     margin-top: 40px;
 }
+
 
