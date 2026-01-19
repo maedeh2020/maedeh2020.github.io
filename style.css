@@ -41,13 +41,16 @@
 }
 
 /* EMAIL INPUT */
+
 .email-form input {
     width: 100%;
     padding: 12px;
     font-size: 16px;
     border-radius: 6px;
     border: 1px solid #ccc;
+    box-sizing: border-box; /* این خط مشکل را حل می‌کند */
 }
+
 
 /* SUBSCRIBE BUTTON */
 .email-form button {
@@ -109,4 +112,5 @@ footer {
     background: #f5f5f5;
     margin-top: 40px;
 }
+
 
