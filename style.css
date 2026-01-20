@@ -13,31 +13,32 @@ body {
     background: #37B5A7;
     color: white;
 }
-*/
-.hero {
+*/.hero {
     padding: 90px 20px;
     text-align: center;
     color: white;
+    position: relative;
+    overflow: hidden;
 
     background: linear-gradient(115deg,
-        #37B5A7,
         #2FA89B,
+        #37B5A7,
         #4BC7B8,
         #1F8F82,
-        #37B5A7
+        #37B5A7,
+        #2FA89B
     );
-    background-size: 500% 500%;
-    animation: gradientWave 6s ease-in-out infinite;
+    background-size: 600% 600%;
+    animation: ultraWave 5s ease-in-out infinite;
 }
 
-@keyframes gradientWave {
+@keyframes ultraWave {
     0% { background-position: 0% 50%; }
-    20% { background-position: 50% 100%; }
+    25% { background-position: 50% 100%; }
     50% { background-position: 100% 50%; }
-    80% { background-position: 50% 0%; }
+    75% { background-position: 50% 0%; }
     100% { background-position: 0% 50%; }
 }
-
 
 
 /* LOGO */
@@ -155,6 +156,7 @@ footer {
     background: #f5f5f5;
     margin-top: 40px;
 }
+
 
 
 
