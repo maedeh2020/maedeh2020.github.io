@@ -14,27 +14,28 @@ body {
     color: white;
 }
 */
+
 .hero {
     padding: 90px 20px;
     text-align: center;
     color: white;
 
-    background: linear-gradient(120deg,
+    background: linear-gradient(115deg,
         #37B5A7,
         #2FA89B,
         #4BC7B8,
-        #2FA89B,
+        #1F8F82,
         #37B5A7
     );
-    background-size: 400% 400%;
-    animation: gradientMove 8s ease-in-out infinite;
+    background-size: 500% 500%;
+    animation: gradientWave 6s ease-in-out infinite;
 }
 
-@keyframes gradientMove {
+@keyframes gradientWave {
     0% { background-position: 0% 50%; }
-    25% { background-position: 50% 100%; }
+    20% { background-position: 50% 100%; }
     50% { background-position: 100% 50%; }
-    75% { background-position: 50% 0%; }
+    80% { background-position: 50% 0%; }
     100% { background-position: 0% 50%; }
 }
 
@@ -154,6 +155,7 @@ footer {
     background: #f5f5f5;
     margin-top: 40px;
 }
+
 
 
 
