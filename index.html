@@ -12,34 +12,37 @@
   <!-- HERO SECTION -->
 
 
-<div class="hero-actions">
-  <!-- Primary CTA: Email -->
-  <form action="YOUR_FORMSPREE_URL" method="POST" class="email-form">
-    <label class="sr-only" for="email">Email address</label>
-    <input
-      id="email"
-      type="email"
-      name="email"
-      placeholder="Enter your email for updates"
-      required
-    />
-    <button type="submit" class="btn btn-primary">
-      Join the waitlist
-    </button>
-  </form>
 
-  <!-- Secondary CTA: YouTube -->
-  <a
-    class="btn btn-secondary btn-youtube"
-    href="https://www.youtube.com/@YOURCHANNEL"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    ▶ Visit our YouTube channel
-  </a>
-</div>
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="container hero-inner">
+      <img src="assets/maedx-logo.png" alt="MaedX logo" class="logo" />
 
+      <h1 class="headline">
+        Master Energy Modeling<br />
+        Design Better Buildings
+      </h1>
 
+      <p class="subtitle">
+        Modern, practical education for architects, engineers, and sustainability professionals.
+      </p>
+
+      <div class="hero-card" role="group" aria-label="Primary actions">
+        <a class="btn btn-primary" href="https://linkedin.com/company/maedx" target="_blank" rel="noopener noreferrer">
+          Follow MaedX on LinkedIn
+        </a>
+
+        <form action="YOUR_FORMSPREE_URL" method="POST" class="email-form" aria-label="Email subscription form">
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" type="email" name="email" placeholder="Enter your email address" autocomplete="email" required />
+          <button class="btn btn-secondary" type="submit">Subscribe</button>
+          <p class="form-hint">No spam. Unsubscribe anytime.</p>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main>
   
     <!-- ABOUT -->
     <section class="section">
@@ -158,5 +161,6 @@
   </footer>
 </body>
 </html>
+
 
 
