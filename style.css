@@ -463,32 +463,3 @@ p { margin: 0 0 14px; color: var(--muted); }
   }
 }
 
-
-
-
-
-.hero-links {
-  margin-top: 10px;
-  text-align: center;
-}
-
-.hero-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-
-  font-size: 15px;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.9);
-  text-decoration: none;
-
-  padding: 8px 12px;
-  border-radius: 999px;
-
-  transition: background 150ms ease, opacity 150ms ease;
-}
-
-.hero-link:hover {
-  background: rgba(255, 255, 255, 0.12);
-  opacity: 1;
-}
