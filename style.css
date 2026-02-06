@@ -463,3 +463,105 @@ p { margin: 0 0 14px; color: var(--muted); }
   }
 }
 
+
+/* =========================
+   Course platform mockup
+========================= */
+.course-mockup {
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.course-window {
+  width: min(420px, 100%);
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid rgba(17, 24, 39, 0.12);
+  box-shadow: 0 18px 40px rgba(17, 24, 39, 0.12);
+  overflow: hidden;
+}
+
+/* Video */
+.course-video {
+  position: relative;
+  height: 220px;
+  background: linear-gradient(
+    135deg,
+    rgba(55, 181, 167, 0.9),
+    rgba(47, 168, 155, 0.9)
+  );
+  display: grid;
+  place-items: center;
+}
+
+.play-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #2fa89b;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.video-label {
+  position: absolute;
+  bottom: 12px;
+  left: 14px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Progress */
+.course-progress {
+  padding: 14px;
+  border-bottom: 1px solid rgba(17, 24, 39, 0.08);
+  font-size: 14px;
+  color: #374151;
+}
+
+.progress-bar {
+  height: 6px;
+  background: rgba(17, 24, 39, 0.1);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.progress-fill {
+  width: 35%;
+  height: 100%;
+  background: #37b5a7;
+}
+
+/* Lesson list */
+.lesson-list {
+  list-style: none;
+  margin: 0;
+  padding: 12px 14px;
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.lesson-list li {
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: rgba(17, 24, 39, 0.03);
+  color: #374151;
+}
+
+.lesson-list li.done {
+  color: #2fa89b;
+}
+
+.lesson-list li.active {
+  background: rgba(55, 181, 167, 0.12);
+  color: #0f766e;
+  font-weight: 600;
+}
+
+
