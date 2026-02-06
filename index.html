@@ -1,78 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaedX — Building Performance Education</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MaedX — Building Performance Education</title>
+  <meta name="description" content="MaedX is a modern learning platform for architects, engineers, and sustainability professionals focused on energy modeling and building performance." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="container hero-inner">
+      <img src="assets/maedx-logo.png" alt="MaedX logo" class="logo" />
 
-    <!-- HERO SECTION -->
-    <header class="hero">
-        <img src="assets/maedx-logo.png" alt="MaedX logo" class="logo">
-        <p class="subtitle">Master Energy Modeling<br> Design Better Buildings</p>
+      <h1 class="headline">
+        Master Energy Modeling<br />
+        Design Better Buildings
+      </h1>
 
-        <div class="hero-stack">
-            <a class="cta" href="https://linkedin.com/company/maedx" target="_blank">
-                Follow MaedX on LinkedIn
-            </a>
+      <p class="subtitle">
+        Modern, practical education for architects, engineers, and sustainability professionals.
+      </p>
 
-            <form action="YOUR_FORMSPREE_URL" method="POST" class="email-form">
-                <input type="email" name="email" placeholder="Enter your email address" required>
-                <button type="submit">Subscribe</button>
-            </form>
-        </div>
-    </header>
+      <div class="hero-card" role="group" aria-label="Primary actions">
+        <a class="btn btn-primary" href="https://linkedin.com/company/maedx" target="_blank" rel="noopener noreferrer">
+          Follow MaedX on LinkedIn
+        </a>
 
+        <form action="YOUR_FORMSPREE_URL" method="POST" class="email-form" aria-label="Email subscription form">
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" type="email" name="email" placeholder="Enter your email address" autocomplete="email" required />
+          <button class="btn btn-secondary" type="submit">Subscribe</button>
+          <p class="form-hint">No spam. Unsubscribe anytime.</p>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main>
     <!-- ABOUT -->
     <section class="section">
+      <div class="container">
         <h2>What is MaedX?</h2>
         <p>
-            MaedX is a modern learning platform built for architects, engineers, and sustainability professionals 
-            who want to design smarter and lead with data‑driven insight. Our content is based on real project 
-            experience, rigorous QA/QC workflows, and clear communication.
+          MaedX is a modern learning platform built for architects, engineers, and sustainability professionals
+          who want to design smarter and lead with data-driven insight. Our content is based on real project
+          experience, rigorous QA/QC workflows, and clear communication.
         </p>
+      </div>
     </section>
 
     <!-- WHAT YOU WILL LEARN -->
-    <section class="section">
+    <section class="section section-alt">
+      <div class="container">
         <h2>What You Will Learn</h2>
 
-        <div class="cards">
-            <div class="card">
-                <h3>Energy Modeling</h3>
-                <p>Build accurate whole‑building models from concept to construction.</p>
-            </div>
+        <div class="cards" role="list">
+          <article class="card" role="listitem">
+            <h3>Energy Modeling</h3>
+            <p>Build accurate whole-building models from concept to construction.</p>
+          </article>
 
-            <div class="card">
-                <h3>Net Zero Design</h3>
-                <p>Understand strategies and performance metrics for low‑carbon buildings.</p>
-            </div>
+          <article class="card" role="listitem">
+            <h3>Net Zero Design</h3>
+            <p>Understand strategies and performance metrics for low-carbon buildings.</p>
+          </article>
 
-            <div class="card">
-                <h3>Digital Twins</h3>
-                <p>Explore how data and simulation shape the future of building performance.</p>
-            </div>
+          <article class="card" role="listitem">
+            <h3>Digital Twins</h3>
+            <p>Explore how data and simulation shape the future of building performance.</p>
+          </article>
         </div>
+      </div>
     </section>
 
     <!-- COMING SOON -->
     <section class="section">
+      <div class="container">
         <h2>Platform in Development</h2>
         <p>
-            We’re building a clean, modern learning platform with courses, templates, and professional resources.
-            New content is coming soon.
+          We’re building a clean, modern learning platform with courses, templates, and professional resources.
+          New content is coming soon.
         </p>
+      </div>
     </section>
+  </main>
 
-    <!-- FOOTER -->
-    <footer>
-        © MaedX — Building Performance Education
-    </footer>
-
+  <footer class="footer">
+    <div class="container">
+      © MaedX — Building Performance Education
+    </div>
+  </footer>
 </body>
 </html>
-
-
